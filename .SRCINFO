@@ -1,0 +1,11 @@
+pkgbase = downloader-yt
+	pkgdesc = Descargador de videos de YouTube
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/Edgarmejiav/downloader-yt
+	arch = x86_64
+	license = MIT
+	depends = python
+	depends = yt-dlp
+
+pkgname = downloader-yt
