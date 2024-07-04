@@ -1,5 +1,4 @@
 from pytube import YouTube
-
 def download_video(url, output_path='./'):
     try:
         video = YouTube(url)
@@ -10,7 +9,6 @@ def download_video(url, output_path='./'):
             "filename": stream.default_filename,
             "destination_path": output_path
         }
-        print(f"Video descargado correctamente en {video_info['title']}")
         stream.download(output_path=output_path)
         return video_info
     except Exception as e:

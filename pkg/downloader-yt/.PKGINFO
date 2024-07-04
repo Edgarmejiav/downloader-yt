@@ -6,9 +6,9 @@ xdata = pkgtype=pkg
 pkgver = 1.0-1
 pkgdesc = Un paquete que saluda con la hora actual y el nombre proporcionado.
 url = https://example.com/downloader-yt
-builddate = 1720121243
+builddate = 1720122006
 packager = Unknown Packager
-size = 920
+size = 947
 arch = any
 license = MIT
 depend = python

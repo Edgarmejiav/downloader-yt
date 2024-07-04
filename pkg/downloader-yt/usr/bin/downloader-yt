@@ -20,11 +20,14 @@ def download_video(url, output_path='./'):
     except Exception as e:
         return {"error": str(e)}
 
+def say_hello(name):
+    print(f"Hola {name}!")
+
 if __name__ == "__main__":
-    print("Descargando video...")
-    # import sys
-    # if len(sys.argv) != 2:
-    #     print("Uso: ./downloader-yt <nombre>")
-    #     sys.exit(1)
-    # name = sys.argv[1]
-    download_video(url="https://youtu.be/3AtDnEC4zak?list=RD8PTDv_szmL0")
+    import sys
+    if len(sys.argv) != 2:
+        print("Uso: ./downloader-yt <nombre>")
+        sys.exit(1)
+    name = sys.argv[1]
+    say_hello(name)
+    # download_video(url="https://youtu.be/3AtDnEC4zak?list=RD8PTDv_szmL0")
