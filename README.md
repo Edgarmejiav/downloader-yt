@@ -8,3 +8,9 @@ Download videos from YouTube
 
 
 ![cap.png](src/resourse/cap.png)
+
+Usage
+-----
+```bash
+downloader-yt https://youtu.be/dQw4w9WgXcQ
+```
