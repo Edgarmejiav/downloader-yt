@@ -11,8 +11,7 @@ Download videos from YouTube
 
 ## Usage
 To download a video from YouTube, you need to run the following command in the terminal:
-```bash
------
+
 ```bash
 downloader-yt https://youtu.be/dQw4w9WgXcQ
 ```
