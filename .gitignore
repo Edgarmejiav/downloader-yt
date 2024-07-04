@@ -2,3 +2,4 @@
 .venv
 .idea
 .pkg
+*.pkg.tar.xz
