@@ -20,6 +20,5 @@ downloader-yt https://youtu.be/dQw4w9WgXcQ
 ```bash
     git clone https://github.com/Edgarmejiav/downloader-yt
     cd downloader-yt
-    pip install -r requirements.txt
     makepkg -si
 ```
