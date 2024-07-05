@@ -15,3 +15,11 @@ To download a video from YouTube, you need to run the following command in the t
 ```bash
 downloader-yt https://youtu.be/dQw4w9WgXcQ
 ```
+
+## install  to Arch Linux
+```bash
+    git clone https://github.com/Edgarmejiav/downloader-yt
+    cd downloader-yt
+    pip install -r requirements.txt
+    makepkg -si
+```
